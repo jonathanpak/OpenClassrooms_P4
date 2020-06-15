@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: 12px;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -777,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -892,6 +896,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
